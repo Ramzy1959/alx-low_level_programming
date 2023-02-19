@@ -1,22 +1,22 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: " A program that prints the alphabet in lowercase, and then in uppercase"
+ * main - Entry Point
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char c;
+	char b;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (b = 'a'; b <= 'z'; b++)
 	{
-	putchar(c);
+	putchar(b);
 	}
-	for (c = 'A'; c >= 'Z'; c++)
+	for (b = 'A'; b <= 'Z'; b++)
 	{
-	putchar(c);
+	putchar(b);
 	}
 	putchar('\n');
-
 	return (0);
 }
