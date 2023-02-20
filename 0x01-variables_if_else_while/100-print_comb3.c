@@ -20,7 +20,7 @@ int main(void)
 			if (r != 8 || c != 9)
 			{
 				putchar(',');
-				putchar(',');
+				putchar(' ');
 			}
 			c++;
 		}
