@@ -3,37 +3,27 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * Description: prints numbers of base 16 in lowercase
+ * Description: 'prints numbers of base 16 in lowercase'
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char c;
-	
-	int num = 'o';
+	int i;
 
-	while (num < '16')
+	char n;
+
+	for (i = 0; i < 16; i++)
 	{
-		if (num < '10')
-		putchar(num++);
+	if (i < 10)
+	{
+	n = i + '0';
 	}
 	else
 	{
-		putchar(num + '10');
-
-	}  
+	n = i - 10 + 'a';
+	}
+	putchar(n);
+	}
 	putchar('\n');
-        return (0);
+	return (0);
 }	
-
-	 
-
-
-
-
-
-
-
-
-	
-	
