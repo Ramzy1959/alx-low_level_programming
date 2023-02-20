@@ -8,21 +8,32 @@
  */
 int main(void)
 {
-	int i;
+	char c;
 	
-	char n;
+	int num = 'o';
 
-	for (i = 0; i < 16; i++)
+	while (num < '16')
 	{
-	if (n < 10)
-	{
-	  n = i + '0';
-	} else
-	{
-	  = i - 10 + 'a';
+		if (num < '10')
+		putchar(num++);
 	}
-	putchar(n);
-	}
+	else
+	{
+		putchar(num + '10');
+
+	}  
 	putchar('\n');
-	return (0);
-}
+        return (0);
+}	
+
+	 
+
+
+
+
+
+
+
+
+	
+	
