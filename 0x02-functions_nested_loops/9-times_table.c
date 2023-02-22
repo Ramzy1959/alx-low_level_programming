@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * times_table - time table being printed in a table format
- * Return: always success
+ * times_table - time table being printed in table format
+ * Return: Always success
  */
 void times_table(void)
 {
@@ -15,7 +15,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			result = i * j;
+			result =  i * j;
 
 			if (result <= 9)
 			{
